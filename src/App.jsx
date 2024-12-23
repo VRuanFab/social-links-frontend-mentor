@@ -9,8 +9,8 @@ function App() {
         
           <div className='self-center bg-gray-site-800 flex flex-col items-center w-[28rem] max-md:w-[20.6rem] rounded-xl py-9 max-md:py-6 gap-7 px-9 max-md:px-6'>
             
-            <div className='w-full'>
-              <img src={avatar} alt="" className='rounded-full w-24 place-self-center'/>
+            <div className='flex w-full justify-center'>
+              <img src={avatar} alt="" className='rounded-full w-24'/>
             </div>
 
             <div className='w-full text-center flex flex-col gap-2'>
